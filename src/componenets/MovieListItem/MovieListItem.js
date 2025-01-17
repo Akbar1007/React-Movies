@@ -3,12 +3,8 @@ import './MovieListItem.css'
 const MovieListItem = () => {
 	return (
 		<li className='list-group-item d-flex justify-content-between'>
-			<span className='list-group-item-label'>Empire of Osman</span>
-			<input
-				type='number'
-				className='list-group-item-input'
-				defaultValue='989'
-			/>
+			<span className='list-group-item-label'>Home Alone</span>
+			<input type='number' className='list-group-item-input' defaultValue='1' />
 			<div className='d-flex justify-content-center align-items-center'>
 				<button type='button' className='btn-cookie btn-sm'>
 					<i className='fas fa-cookie'></i>
