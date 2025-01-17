@@ -50,34 +50,33 @@ Make sure you have the following installed:
 The project is organized as follows:
 
 ```
-├── node_modules/          # Contains all the npm packages and dependencies
-├── public/                # Static files for the project (e.g., favicon, index.html)
-├── src/                   # Source files for the React application
-│   ├── components/        # Contains all the reusable components
-│   │   ├── App/           # Main application component
-│   │   │   ├── App.css    # Styling for the App component
-│   │   │   └── App.js     # Main App component logic
-│   │   ├── Filter/        # Filter component
-│   │   │   ├── Filter.css # Styling for the Filter component
-│   │   │   └── Filter.js  # Filter component logic
-│   │   ├── Info/          # Info component
-│   │   │   ├── Info.css   # Styling for the Info component
-│   │   │   └── Info.js    # Info component logic
-│   │   ├── Search-Panel/  # Search Panel component
-│   │       ├── SearchPanel.css  # Styling for the Search Panel component
-│   │       └── SearchPanel.js   # Search Panel component logic
-│   ├── index.css          # Global styles for the application
-│   └── index.js           # Entry point of the React application
-├── .gitignore             # Specifies files and directories ignored by Git
-├── package-lock.json      # Auto-generated file for dependency version locking
-├── package.json           # Project metadata and dependencies
-└── README.md              # Project documentation
+├── node_modules/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── App/
+│   │   │   ├── App.css
+│   │   │   └── App.js
+│   │   ├── Filter/
+│   │   │   ├── Filter.css
+│   │   │   └── Filter.js
+│   │   ├── Info/
+│   │   │   ├── Info.css
+│   │   │   └── Info.js
+│   │   ├── Search-Panel/
+│   │       ├── SearchPanel.css
+│   │       └── SearchPanel.js
+│   ├── index.css
+│   └── index.js
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── README.md
 ```
 
 ### Key Files and Folders
 
-- **`components/`**: Contains reusable React components like `Header`, `SearchBar`, `MovieList`, and `Filters`.
-- **`styles/`**: Contains CSS files for styling the components.
+- **`components/`**: Contains reusable React components like `Filter`, `Search-Panel`, `MovieList`, `Info`, and etc with its styles.
 - **`App.js`**: Main application component where all other components are assembled.
 - **`index.js`**: Entry point of the application.
 
@@ -93,15 +92,6 @@ The project is organized as follows:
 - **CSS**: For styling the components and layout.
 - **JavaScript**: For logic and interactivity.
 
-## Customization
-
-1. **Add New Filters:**
-   - Open the `Filters.js` component and add new filter buttons with appropriate logic.
-2. **Modify Styles:**
-   - Edit the CSS files in the `styles/` directory to customize the look and feel.
-3. **Extend Functionality:**
-   - Add more components or integrate an external API for dynamic movie data.
-
 ## Acknowledgments
 
 - Inspired by the need for a simple and intuitive movie dashboard.
@@ -109,4 +99,5 @@ The project is organized as follows:
 
 ---
 
+I am still working on further improvements 💻
 Feel free to customize and enhance this application as needed. Contributions are welcome!
