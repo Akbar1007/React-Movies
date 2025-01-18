@@ -1,8 +1,12 @@
 import './MovieListItem.css'
 
-const MovieListItem = ({ name, viewers }) => {
+const MovieListItem = ({ name, viewers, favourite }) => {
 	return (
-		<li className='list-group-item d-flex justify-content-between'>
+		<li
+			className={`list-group-item d-flex justify-content-between ${
+				favourite && 'favourite'
+			}`}
+		>
 			<span className='list-group-item-label'>{name}</span>
 			<input
 				type='number'
