@@ -12,16 +12,19 @@ export const App = () => {
 			name: 'Home alone',
 			viewers: 555,
 			favourite: true,
+			id: 1,
 		},
 		{
 			name: 'Home alone 2',
 			viewers: 767,
 			favourite: false,
+			id: 2,
 		},
 		{
 			name: 'Spider Man',
 			viewers: 534,
 			favourite: false,
+			id: 3,
 		},
 	]
 	return (
